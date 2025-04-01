@@ -15,8 +15,9 @@ const Header = () => {
   };
   return (
     <div
-      className="w-full flex items-center justify-center 
-    bg-[radial-gradient(circle_at_top_left,_rgba(0,0,0,1)_0%,_rgba(0,0,0,1)_100%)] p-5"
+      className="w-full flex items-center justify-center h-[100px]
+    bg-[radial-gradient(circle_at_top_left,_rgba(0,0,0,1)_0%,_rgba(0,0,0,1)_100%)] p-5 shadow-xl"
+    
     >
       <div className="w-[80%] flex flex-row justify-between items-center">
         <div className="flex items-center gap-2">
@@ -31,9 +32,9 @@ const Header = () => {
           </div>
         </div>
         <div className="ml-auto">
-          <ul className="flex gap-6 text-yellow-300 text-[16px] font-semibold">
+          <ul className="flex gap-6 text-yellow-300 text-[18px] font-semibold">
             <li>
-              <a href="" className="hover:text-white transition duration-300">
+              <a href="/" className="hover:text-white transition duration-300">
                 Home
               </a>
             </li>

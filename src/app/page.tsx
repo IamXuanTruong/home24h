@@ -30,7 +30,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="w-[90%] md:w-[70%] flex flex-col md:flex-row justify-between items-center min-h-[1000px] md:h-[250px] mx-auto gap-6 md:gap-10 py-8 md:py-0">
+      <div className="w-[90%] md:w-[70%] flex flex-col md:flex-row justify-between items-center min-h-[500px] md:h-[250px] mx-auto gap-6 md:gap-10 py-8 md:py-0">
         <div className="w-full md:w-1/4 h-[180px] flex flex-col justify-center items-center border border-gray-400 text-center">
           <svg
             className="h-[30px] w-[30px] fill-[rgba(170,132,83,1)]"
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-          
+
       <Footer />
     </>
   );
